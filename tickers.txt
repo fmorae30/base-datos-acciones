@@ -1,0 +1,92 @@
+# Un ticker por linea. Todo lo que venga despues de # es comentario.
+# Editar este archivo es todo lo que necesitas para agregar o sacar acciones:
+# no hay que tocar el codigo. El proximo run baja el historico completo de
+# cualquier ticker nuevo y sigue actualizando los que ya estaban.
+#
+# Un ticker CON PUNTO (ej. SMSN.UK) se considera de un mercado fuera de EE.UU.:
+# el script se salta Tiingo y va directo a Stooq.
+
+# ---- Consumo y retail ----
+KO
+MCD
+WMT
+COST
+ATAT          # Atour Lifestyle, ADR chino en NASDAQ
+RCL
+
+# ---- Salud ----
+LLY
+UNH
+ENSG
+
+# ---- Financiero y cripto ----
+JPM
+CB
+BCH           # Banco de Chile, ADR en NYSE
+CASH          # Pathward Financial (NASDAQ) -- CONFIRMAR que es esto
+COIN
+CRCL          # Circle Internet Group
+
+# ---- Energia y utilities ----
+NEE
+CVX
+FSLR
+IBDRY         # era "IBE": Iberdrola cotiza en Madrid. Este es su ADR OTC.
+
+# ---- Materiales y mineria ----
+SCCO
+GLD
+USAR          # USA Rare Earth
+BATT          # Amplify Lithium & Battery Technology ETF
+
+# ---- Defensa e industrial ----
+NOC
+LMT
+TDG
+RRX           # Regal Rexnord
+NOVT          # Novanta
+FLEX
+
+# ---- Tecnologia ----
+GOOGL
+MSFT
+QCOM
+MU
+TSLA
+SONY
+BABA
+XPEV
+
+# ---- Cuantica y robotica ----
+IONQ
+RGTI
+QTUM          # Defiance Quantum ETF
+KOID          # KraneShares Global Humanoid Robotics ETF
+
+# ---- China amplio ----
+MCHI          # iShares MSCI China ETF
+
+# ---- Lujo ----
+HESAY         # era "HERMES": Hermes cotiza en Paris (RMS). Este es su ADR OTC.
+
+
+# =====================================================================
+# PENDIENTES: no hay forma limpia de capturarlos con estas fuentes
+# =====================================================================
+#
+# 005930 -- Samsung Electronics, Korea Exchange.
+#   Ni Tiingo ni Stooq-US cubren Corea. Tres caminos, ninguno ideal:
+#     SSNLF     ADR OTC no patrocinado. Casi no transa: vas a tener huecos
+#               y precios que no siguen al de Seul. No lo recomiendo.
+#     SMSN.UK   GDR de Londres. Es el mejor proxy liquido. Descomenta esta
+#               linea para probarlo; si Stooq no lo tiene, la corrida lo
+#               reporta como sin-datos y no rompe nada.
+#     Pagar     Una fuente con cobertura KRX (EODHD, Tiingo de pago).
+#
+# SMSN.UK
+#
+# UNITREE -- Unitree Robotics (688836.SS), debuto en el STAR Market de
+#   Shanghai el 19-ago-2026. Las A-shares de Shanghai no estan en ninguna
+#   de las dos fuentes gratis. Ademas lleva 10 dias cotizando, asi que no
+#   hay historico que rescatar todavia. Exposicion indirecta: KOID, que ya
+#   esta en la lista, lo tiene entre sus holdings.
