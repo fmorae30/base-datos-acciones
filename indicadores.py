@@ -5,9 +5,13 @@ Indicadores semanales sobre la base de precios diarios.
 
 Calcula, para cada accion:
   - Velas semanales (agrupando los dias habiles de cada semana)
-  - RSI de 14 periodos, metodo de Wilder
+  - RSI de 14 periodos, metodo de Wilder, sobre precios ajustados solo por
+    splits, que es la convencion de TradingView
   - Maximo y minimo del RSI en una ventana movil de 5 anios (260 semanas)
   - Posicion dentro de esa banda, de 0 a 100
+
+La salida alimenta la hoja 3_Tecnico_ElliottRSI de Cartera_Mecenas.xlsx:
+resumen_rsi.csv trae Ticker, RSI, RSI_min_5a y RSI_max_5a con esos nombres.
 
 Para que sirve la banda movil: el 70/30 clasico es igual para todas las
 acciones, pero cada papel tiene su propio rango. Hay acciones que rara vez
@@ -50,21 +54,48 @@ CAMPOS_SERIE = ["Semana", "Open", "High", "Low", "Close", "Volume",
 # --------------------------------------------------------------- lectura
 
 def leer_diario(ruta):
+    """Precios ajustados SOLO por splits, que es la convencion de TradingView.
+
+    No se usan las columnas Adj* del CSV porque esas vienen ajustadas tambien
+    por dividendos (metodologia CRSP), y eso corre el RSI entre 1 y 3 puntos
+    respecto de lo que muestra cualquier plataforma de graficos. Para retorno
+    total el ajuste por dividendos es lo correcto; para leer un indicador
+    tecnico y poder contrastarlo contra TradingView, no.
+    """
     filas = []
     with open(ruta, "r", encoding="utf-8", newline="") as f:
         for r in csv.DictReader(f):
             try:
                 filas.append({
                     "fecha": datetime.strptime(r["Date"], "%Y-%m-%d").date(),
-                    "open": float(r["AdjOpen"] or r["Open"]),
-                    "high": float(r["AdjHigh"] or r["High"]),
-                    "low": float(r["AdjLow"] or r["Low"]),
-                    "close": float(r["AdjClose"] or r["Close"]),
+                    "open": float(r["Open"]),
+                    "high": float(r["High"]),
+                    "low": float(r["Low"]),
+                    "close": float(r["Close"]),
                     "volumen": float(r["Volume"] or 0),
+                    "split": float(r["SplitFactor"] or 1),
                 })
             except (ValueError, KeyError):
                 continue
     filas.sort(key=lambda x: x["fecha"])
+    return ajustar_por_splits(filas)
+
+
+def ajustar_por_splits(filas):
+    """
+    El precio de cada dia se divide por los splits que vinieron DESPUES.
+
+    Sin esto, el 3x1 de TSLA de agosto de 2022 aparece como una caida de 67%
+    en una semana y hunde el RSI durante meses. El volumen se corrige al
+    reves, multiplicando, porque tras un split se transan mas acciones.
+    """
+    factor = 1.0
+    for r in reversed(filas):
+        if factor != 1.0:
+            for c in ("open", "high", "low", "close"):
+                r[c] /= factor
+            r["volumen"] *= factor
+        factor *= r["split"]
     return filas
 
 
