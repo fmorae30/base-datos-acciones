@@ -70,6 +70,11 @@
       "ultima_fecha": "2026-09-11",
       "ultima_revision": "2026-09-13"
     },
+    "DAL": {
+      "error": "HTTP 403",
+      "fuente": "tiingo",
+      "ultima_revision": "2026-09-14"
+    },
     "ENSG": {
       "error": "",
       "filas": 4738,
@@ -302,5 +307,5 @@
       "ultima_revision": "2026-09-13"
     }
   },
-  "ultima_corrida": "2026-09-13 14:49 UTC"
+  "ultima_corrida": "2026-09-14 13:45 UTC"
 }
