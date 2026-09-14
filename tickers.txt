@@ -13,6 +13,7 @@ WMT
 COST
 ATAT          # Atour Lifestyle, ADR chino en NASDAQ
 RCL
+DAL           # Delta Air Lines, NYSE
 
 # ---- Salud ----
 LLY
