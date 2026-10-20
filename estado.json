@@ -2,312 +2,312 @@
   "tickers": {
     "ATAT": {
       "error": "",
-      "filas": 985,
+      "filas": 986,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "BABA": {
       "error": "",
-      "filas": 3037,
+      "filas": 3038,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "BATT": {
       "error": "",
-      "filas": 2103,
+      "filas": 2104,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "BCH": {
       "error": "",
-      "filas": 6234,
+      "filas": 6235,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "CASH": {
       "error": "",
-      "filas": 8325,
+      "filas": 8326,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "CB": {
       "error": "",
-      "filas": 10609,
+      "filas": 10610,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "COIN": {
       "error": "",
-      "filas": 1385,
+      "filas": 1386,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "COST": {
       "error": "",
-      "filas": 10147,
+      "filas": 10148,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "CRCL": {
       "error": "",
-      "filas": 345,
+      "filas": 346,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "CVX": {
       "error": "",
-      "filas": 14318,
+      "filas": 14319,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "DAL": {
       "error": "",
-      "filas": 4896,
+      "filas": 4897,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "ENSG": {
       "error": "",
-      "filas": 4763,
+      "filas": 4764,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "FLEX": {
       "error": "",
-      "filas": 8200,
+      "filas": 8201,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "FSLR": {
       "error": "",
-      "filas": 5008,
+      "filas": 5009,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "GLD": {
       "error": "",
-      "filas": 5512,
+      "filas": 5513,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "GOOGL": {
       "error": "",
-      "filas": 5576,
+      "filas": 5577,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "HESAY": {
       "error": "",
-      "filas": 4310,
+      "filas": 4311,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "IBDRY": {
       "error": "",
-      "filas": 4847,
+      "filas": 4848,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "IONQ": {
       "error": "",
-      "filas": 1454,
+      "filas": 1455,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "JPM": {
       "error": "",
-      "filas": 10783,
+      "filas": 10784,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "KO": {
       "error": "",
-      "filas": 16305,
+      "filas": 16306,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "KOID": {
       "error": "",
-      "filas": 344,
+      "filas": 345,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "LLY": {
       "error": "",
-      "filas": 13708,
+      "filas": 13709,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "LMT": {
       "error": "",
-      "filas": 12551,
+      "filas": 12552,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "MCD": {
       "error": "",
-      "filas": 14318,
+      "filas": 14319,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "MCHI": {
       "error": "",
-      "filas": 3910,
+      "filas": 3911,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "MSFT": {
       "error": "",
-      "filas": 10228,
+      "filas": 10229,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "MU": {
       "error": "",
-      "filas": 9425,
+      "filas": 9426,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "NEE": {
       "error": "",
-      "filas": 10924,
+      "filas": 10925,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "NOC": {
       "error": "",
-      "filas": 11289,
+      "filas": 11290,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "NOVT": {
       "error": "",
-      "filas": 2713,
+      "filas": 2714,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "QCOM": {
       "error": "",
-      "filas": 8771,
+      "filas": 8772,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "QTUM": {
       "error": "",
-      "filas": 2040,
+      "filas": 2041,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "RCL": {
       "error": "",
-      "filas": 8426,
+      "filas": 8427,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "RGTI": {
       "error": "",
-      "filas": 1379,
+      "filas": 1380,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "RRX": {
       "error": "",
-      "filas": 10803,
+      "filas": 10804,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "SCCO": {
       "error": "",
-      "filas": 7746,
+      "filas": 7747,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "SONY": {
       "error": "",
-      "filas": 13167,
+      "filas": 13168,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "TDG": {
       "error": "",
-      "filas": 5181,
+      "filas": 5182,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "TSLA": {
       "error": "",
-      "filas": 4101,
+      "filas": 4102,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "UNH": {
       "error": "",
-      "filas": 9208,
+      "filas": 9209,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "USAR": {
       "error": "",
-      "filas": 818,
+      "filas": 819,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "WMT": {
       "error": "",
-      "filas": 13648,
+      "filas": 13649,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     },
     "XPEV": {
       "error": "",
-      "filas": 1542,
+      "filas": 1543,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-10-16",
-      "ultima_revision": "2026-10-17"
+      "ultima_fecha": "2026-10-19",
+      "ultima_revision": "2026-10-20"
     }
   },
-  "ultima_corrida": "2026-10-17 05:27 UTC"
+  "ultima_corrida": "2026-10-20 01:20 UTC"
 }
