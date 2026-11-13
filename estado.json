@@ -114,10 +114,10 @@
     },
     "HESAY": {
       "error": "",
-      "filas": 4328,
+      "filas": 4329,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-11",
-      "ultima_revision": "2026-11-12"
+      "ultima_fecha": "2026-11-12",
+      "ultima_revision": "2026-11-13"
     },
     "IBDRY": {
       "error": "",
@@ -128,10 +128,10 @@
     },
     "IONQ": {
       "error": "",
-      "filas": 1472,
+      "filas": 1473,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-11",
-      "ultima_revision": "2026-11-12"
+      "ultima_fecha": "2026-11-12",
+      "ultima_revision": "2026-11-13"
     },
     "JPM": {
       "error": "",
@@ -149,10 +149,10 @@
     },
     "KOID": {
       "error": "",
-      "filas": 362,
+      "filas": 363,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-11",
-      "ultima_revision": "2026-11-12"
+      "ultima_fecha": "2026-11-12",
+      "ultima_revision": "2026-11-13"
     },
     "LLY": {
       "error": "",
@@ -177,10 +177,10 @@
     },
     "MCHI": {
       "error": "",
-      "filas": 3928,
+      "filas": 3929,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-11",
-      "ultima_revision": "2026-11-12"
+      "ultima_fecha": "2026-11-12",
+      "ultima_revision": "2026-11-13"
     },
     "MSFT": {
       "error": "",
@@ -226,10 +226,10 @@
     },
     "QTUM": {
       "error": "",
-      "filas": 2058,
+      "filas": 2059,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-11",
-      "ultima_revision": "2026-11-12"
+      "ultima_fecha": "2026-11-12",
+      "ultima_revision": "2026-11-13"
     },
     "RCL": {
       "error": "",
@@ -240,10 +240,10 @@
     },
     "RGTI": {
       "error": "",
-      "filas": 1397,
+      "filas": 1398,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-11",
-      "ultima_revision": "2026-11-12"
+      "ultima_fecha": "2026-11-12",
+      "ultima_revision": "2026-11-13"
     },
     "RRX": {
       "error": "",
@@ -309,5 +309,5 @@
       "ultima_revision": "2026-11-13"
     }
   },
-  "ultima_corrida": "2026-11-13 02:59 UTC"
+  "ultima_corrida": "2026-11-13 07:44 UTC"
 }
