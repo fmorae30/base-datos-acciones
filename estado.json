@@ -114,10 +114,10 @@
     },
     "HESAY": {
       "error": "",
-      "filas": 4334,
+      "filas": 4335,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-19",
-      "ultima_revision": "2026-11-20"
+      "ultima_fecha": "2026-11-20",
+      "ultima_revision": "2026-11-21"
     },
     "IBDRY": {
       "error": "",
@@ -177,10 +177,10 @@
     },
     "MCHI": {
       "error": "",
-      "filas": 3934,
+      "filas": 3935,
       "fuente": "tiingo",
-      "ultima_fecha": "2026-11-19",
-      "ultima_revision": "2026-11-20"
+      "ultima_fecha": "2026-11-20",
+      "ultima_revision": "2026-11-21"
     },
     "MSFT": {
       "error": "",
@@ -309,5 +309,5 @@
       "ultima_revision": "2026-11-21"
     }
   },
-  "ultima_corrida": "2026-11-21 03:35 UTC"
+  "ultima_corrida": "2026-11-21 08:09 UTC"
 }
