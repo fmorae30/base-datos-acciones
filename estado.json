@@ -117,7 +117,7 @@
       "filas": 4338,
       "fuente": "tiingo",
       "ultima_fecha": "2026-11-25",
-      "ultima_revision": "2026-11-26"
+      "ultima_revision": "2026-11-27"
     },
     "IBDRY": {
       "error": "",
@@ -152,7 +152,7 @@
       "filas": 372,
       "fuente": "tiingo",
       "ultima_fecha": "2026-11-25",
-      "ultima_revision": "2026-11-26"
+      "ultima_revision": "2026-11-27"
     },
     "LLY": {
       "error": "",
@@ -180,7 +180,7 @@
       "filas": 3938,
       "fuente": "tiingo",
       "ultima_fecha": "2026-11-25",
-      "ultima_revision": "2026-11-26"
+      "ultima_revision": "2026-11-27"
     },
     "MSFT": {
       "error": "",
@@ -309,5 +309,5 @@
       "ultima_revision": "2026-11-27"
     }
   },
-  "ultima_corrida": "2026-11-27 04:37 UTC"
+  "ultima_corrida": "2026-11-27 09:34 UTC"
 }
